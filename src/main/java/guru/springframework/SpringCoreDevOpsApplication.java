@@ -10,5 +10,6 @@ public class SpringCoreDevOpsApplication {
 		SpringApplication.run(SpringCoreDevOpsApplication.class, args);
 
 		// minor change to test jenkins build
+        // another minor change
 	}
 }
