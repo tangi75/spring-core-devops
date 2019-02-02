@@ -84,6 +84,17 @@
 			</plugin>
 		</plugins>
 	</build>
-	
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>f4e0a78728dd-releases</name>
+			<url>http://artifactory.vass.ml/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>f4e0a78728dd-snapshots</name>
+			<url>http://artifactory.vass.ml/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
